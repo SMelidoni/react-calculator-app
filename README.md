@@ -7,9 +7,9 @@ This project is a simple calculator app built using React. It allows users to pe
 To run this app locally, you will need to have Node.js and npm installed on your machine. You can then follow these steps:
 
 1. Clone this repository to your local machine:
-2. Navigate into the project directory: 'cd react-calculator-app'
-3. Install the dependencies using npm: 'npm install'
-4. Start the development server: 'npm start'
+2. Navigate into the project directory: `cd react-calculator-app`
+3. Install the dependencies using npm: `npm install`
+4. Start the development server: `npm start`
 5. Open your web browser and navigate to `http://localhost:3000` to see the app in action.
 
 ## Usage
