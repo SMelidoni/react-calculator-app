@@ -1,0 +1,83 @@
+@import '../../components/main-button/main-button.styles';
+
+.basic-calculator {
+  background-color: #282c34;
+  border: 4px solid #ffffff;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 100%;
+  max-width: 300px;
+
+  .display {
+    background-color: #282c34;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    text-align: right;
+  }
+
+  .buttons {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .number-button,
+  .operation-button,
+  .clear-button,
+  .equal-button {
+    @extend .main-button;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 8px 16px;
+    width: 100%;
+  }
+
+  .number-button {
+    box-shadow: inset 0 0 10px rgba(255, 152, 0, 0.7);
+  }
+
+  .operation-button {
+    box-shadow: inset 0 0 10px rgba(255, 105, 105, 0.7);
+
+    &:hover {
+      background-color: rgba(255, 105, 105, 0.3);
+    }
+
+    &:active {
+      background-color: rgba(255, 105, 105, 0.5);
+    }
+  }
+
+  .clear-button {
+    box-shadow: inset 0 0 10px rgba(255, 255, 0, 0.7);
+
+    &:hover {
+      background-color: rgba(255, 255, 0, 0.3);
+    }
+
+    &:active {
+      background-color: rgba(255, 255, 0, 0.5);
+    }
+  }
+
+  .equal-button {
+    box-shadow: inset 0 0 10px rgba(0, 255, 0, 0.7);
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 5;
+
+    &:hover {
+      background-color: rgba(0, 255, 0, 0.3);
+    }
+
+    &:active {
+      background-color: rgba(0, 255, 0, 0.5);
+    }
+  }
+}

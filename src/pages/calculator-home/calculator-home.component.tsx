@@ -3,6 +3,7 @@ import './calculator-home.styles.scss';
 import React, { FC } from 'react';
 
 import MainButton from '../../components/main-button/main-button.component';
+import BasicCalculator from '../../components/basic-calculator/basic-calculator.component';
 
 interface CalculatorHomeProps {
   showBackButton?: boolean;
@@ -18,10 +19,10 @@ const CalculatorHome: FC<CalculatorHomeProps> = ({ showBackButton }) => {
       )}
       <header className="calculator-home-header">
         <h1 className="header-text header-text-react">React</h1>
-        <h2 className="header-text header-text-calculator">Calculator</h2>
+        <h1 className="header-text header-text-calculator">Calculator</h1>
       </header>
       <div className="calculator-home-content">
-        {/* calculator component will go here */}
+        <BasicCalculator />
       </div>
     </div>
   );
