@@ -29,7 +29,7 @@ const BasicCalculator = () => {
     <div className="basic-calculator">
       <input type="text" className="display" value={result} readOnly />
       <div className="buttons">
-        {[7, 8, 9, '/', 4, 5, 6, '*', 1, 2, 3, '-', 0, '.', '+'].map(
+        {[7, 8, 9, '/', 4, 5, 6, '*', 1, 2, 3, '-', '', 0, '.', '+'].map(
           (value) => (
             <button
               key={value}
