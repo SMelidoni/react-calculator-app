@@ -13,7 +13,7 @@ const CalculatorHome: FC<CalculatorHomeProps> = ({ showBackButton }) => {
     <div className="calculator-home-container">
       {showBackButton && (
         <div className="calculator-home-back-button">
-          <MainButton label="<- Back" />
+          <MainButton label="<- Back" route="/" />
         </div>
       )}
       <header className="calculator-home-header">
