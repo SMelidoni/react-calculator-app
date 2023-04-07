@@ -23,6 +23,7 @@ const CalculatorHome: FC<CalculatorHomeProps> = ({ showBackButton }) => {
       </header>
       <div className="calculator-home-content">
         <BasicCalculator />
+        {/* <AdvancedCalculator />*/}
       </div>
     </div>
   );
