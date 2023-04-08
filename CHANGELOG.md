@@ -1,4 +1,4 @@
-# WIP
+# v1.0.0 - 8th April 2023
 
 - Created initial application setup 'create-react-app'
 - Added PR Template
