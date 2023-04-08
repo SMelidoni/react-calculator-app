@@ -11,8 +11,8 @@ interface MainButtonProps {
 const MainButton: FC<MainButtonProps> = ({ label, route }) => {
   const retroBackLabel = (
     <>
-      <span className="arrow">←</span>
-      <span className="text">Back</span>
+      <span className="main-button-arrow">←</span>
+      <span className="main-button-text">Back</span>
     </>
   );
 
