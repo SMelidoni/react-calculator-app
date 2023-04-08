@@ -6,3 +6,4 @@
 - Added calculator homepage
 - Added Basic Calculator component with functionality and styling
   - Installed 'mathjs' library for 'evaluate()' function
+- Updated project setup as the repository 'react-app-collection' does not call this application as a submodule

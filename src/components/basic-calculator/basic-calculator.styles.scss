@@ -66,6 +66,18 @@
     width: 100%;
   }
 
+  @keyframes floating {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-8px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
   .number-button {
     box-shadow: inset 0 0 10px rgba(255, 152, 0, 0.7);
 
