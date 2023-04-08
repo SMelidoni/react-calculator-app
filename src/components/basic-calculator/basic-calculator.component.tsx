@@ -1,8 +1,7 @@
 import './basic-calculator.styles.scss';
 
-import React from 'react';
+import React, { useState } from 'react';
 import { evaluate } from 'mathjs';
-const { useState } = React;
 
 const BasicCalculator = () => {
   const [result, setResult] = useState('');
