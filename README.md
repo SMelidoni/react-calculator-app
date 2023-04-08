@@ -36,6 +36,10 @@ If you would like to contribute to this project, please follow these steps:
 4. Test your changes to ensure they work as expected.
 5. Submit a pull request to this repository with a description of your changes.
 
+<!--
+
 ## Acknowledgments
 
 This project was inspired by [this tutorial](https://www.google.com). Thanks to the author for their helpful guidance!
+
+-->
