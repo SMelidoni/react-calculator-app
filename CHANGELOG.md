@@ -1,3 +1,7 @@
+# WIP
+
+- Upgraded Node version from v18.10.0 to v18.16.0
+
 # v1.0.0 - 8th April 2023
 
 - Created initial application setup 'create-react-app'
