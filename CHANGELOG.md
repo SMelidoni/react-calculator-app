@@ -1,6 +1,7 @@
 # WIP
 
 - Upgraded Node version from v18.10.0 to v18.16.0
+- Added pixelated grid background style
 
 # v1.0.0 - 8th April 2023
 
