@@ -14,7 +14,10 @@ Before running the React Calculator App, make sure you have the following softwa
 
 To install and run the React Calculator App, follow these steps:
 
-1. Clone this repository to your local machine:
+1. Clone this repository to your local machine: `git clone https://github.com/SMelidoni/react-calculator-app.git`
+
+Note: By default, the `develop` branch will be checked out. However, if you want to use the most stable version, please check out the `main` branch by running: `git checkout main`
+
 2. Navigate into the project directory: `cd react-calculator-app`
 3. Install the dependencies using npm: `npm install`
 4. Start the development server: `npm start`
