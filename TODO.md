@@ -9,6 +9,7 @@
 
 - [ ] Make more responsive for different desktop/devices
 - [ ] Improve styling and animated elements
+- [ ] Comment code
 
 # Ideas
 
