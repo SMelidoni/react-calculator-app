@@ -3,6 +3,7 @@
 ## High Priority
 
 - [ ] Begin implementation of 'Advanced Calculator'
+- [ ] Create Main Menu to allow a user to select which Calculator
 
 ## Low Priority
 
