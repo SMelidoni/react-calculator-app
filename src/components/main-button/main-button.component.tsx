@@ -11,19 +11,19 @@ interface MainButtonProps {
 const MainButton: FC<MainButtonProps> = ({ label, route }) => {
   const retroBackLabel = (
     <>
-      <span className="main-button-arrow">←</span>
-      <span className="main-button-text">Back</span>
+      <span className='main-button-arrow'>←</span>
+      <span className='main-button-text'>Back</span>
     </>
   );
 
   return (
-    <div className="main-button-container">
+    <div className='main-button-container'>
       {route ? (
-        <Link to={route} className="main-button">
+        <Link to={route} className='main-button'>
           {label === '<- Back' ? retroBackLabel : label}
         </Link>
       ) : (
-        <div className="main-button">
+        <div className='main-button'>
           {label === '<- Back' ? retroBackLabel : label}
         </div>
       )}

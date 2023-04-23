@@ -5,7 +5,8 @@ import CalculatorHome from './pages/calculator-home/calculator-home.component';
 
 const App: FC = () => {
   return (
-    <div className="global-page-container">
+    <div className='global-page-container'>
+      <div className='pixelated-grid'></div>
       <CalculatorHome />
     </div>
   );

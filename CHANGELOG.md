@@ -1,3 +1,11 @@
+# v1.0.1 - 23rd April 2023
+
+- Upgraded Node version from v18.10.0 to v18.16.0
+- Added pixelated grid background style
+- Updated packages (resolved vulnerabilities)
+- Added Prettier config file
+- Added TODO.md file
+
 # v1.0.0 - 8th April 2023
 
 - Created initial application setup 'create-react-app'
