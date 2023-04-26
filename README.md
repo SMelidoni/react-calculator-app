@@ -1,5 +1,7 @@
 # React Calculator App
 
+<img src="./assets/images/basic-calculator.png" alt="React Calculator App Preview" width="30%">
+
 This project is a simple calculator app built using React. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
 ## Prerequisites
