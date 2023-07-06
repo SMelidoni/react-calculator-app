@@ -42,7 +42,7 @@ npm install
 npm start
 ```
 
-You can then access the application by opening your web browser and navigating to http://localhost:3000.
+You can then access the application by opening your web browser and navigating to `http://localhost:3000`.
 
 ## Usage
 
